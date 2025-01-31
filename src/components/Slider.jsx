@@ -9,6 +9,13 @@ const Container = styled.div`
     position: relative;
 `;
 
+const TitleImage = styled.img`
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+`;
+
 const Arrow = styled.div`
     width: 50px;
     height: 50px;
@@ -51,18 +58,19 @@ const Slider = () => {
   return (
     <div id="home-section">
         <Container>
-            <Arrow direction="left">
+            <TitleImage src="src/components/images/title.jpg"/>
+            {/* <Arrow direction="left">
                 <ArrowLeftOutlined/>
-            </Arrow>
+            </Arrow> */}
             <Wrapper>
-                <ImageContainer>
+                {/* <ImageContainer>
                     <Image src="https://i.bb.co/XsdmR@c/1.png" />
-                </ImageContainer>
+                </ImageContainer> */}
                 <InfoContainer></InfoContainer>
             </Wrapper>
-            <Arrow direction="right">
+            {/* <Arrow direction="right">
                 <ArrowRightOutlined/>
-            </Arrow>
+            </Arrow> */}
         </Container>
     </div>
   )

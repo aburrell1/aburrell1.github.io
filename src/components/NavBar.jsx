@@ -48,6 +48,17 @@ const Right = styled.div`
     }
 `;
 
+const End = styled.div`
+    flex: 1;
+    align-items: center;
+    padding-top: 15px;
+    text-align: center;
+    color: white; 
+    &:hover { 
+        background-color: grey; 
+    }
+`;
+
 const MenuItem = styled.div`
     font-size: 50px;
     cursor: pointer;
@@ -86,6 +97,13 @@ const NavBar = () => {
                     </Link>
                 </MenuItem>
             </Right>
+            <End>
+                <MenuItem>
+                    <Link to="contacts-section" smooth={true} duration={500}>
+                        Contact Me
+                    </Link>
+                </MenuItem>
+            </End>
         </Wrapper>
     </Container>
   );

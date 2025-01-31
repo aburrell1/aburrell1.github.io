@@ -4,12 +4,12 @@ const Container = styled.div`
     height: 60px;
     width: 100%;
     color: black;
-    padding: 50px 50px;
+    padding: 80px 40px;
     font-weight: 500;
-    font-size: 40px;
-    text-align: left;
+    font-size: 50px;
+    text-align: center;
     font-weight: 1000;
-    font-family: Helvetica;
+    // font-family: Helvetica;
 `;
 
 const Header = ({ text }) => {

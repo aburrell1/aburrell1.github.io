@@ -12,11 +12,16 @@ const Container = styled.div`
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     width: 735px;
-    height: 420px;
+    height: 530px;
 
-    transition: transform 0.3s ease;
+    opaque: 0.8;
+    overflow: hidden;
+
+    transition: height 0.3s ease;
+
     &:hover { 
-        transform: scale(1.05);
+        opaque: 1;
+        height: 700px;
     }
 `;
 
@@ -24,7 +29,7 @@ const ImageWrapper = styled.div`
     border-radius: 10px;
     background-color: blue;
     width: 735px;
-    height: 330px;
+    height: 420px;
     margin-bottom: 30px;
 `;
 
@@ -37,18 +42,21 @@ const Image = styled.img`
 
 const Footer = styled.div`
     display: flex;
-    // align-content: center;
-    // justify-content: space-between;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
     
     text-color: gray;
-    position: absolute;
 `;
 
 const FooterItemWrapper = styled.div`
     display: flex;
-    padding-left: 5px;
+    padding-left: 10px;
     flex-display: row;
     align-content: right;
+    // overflow: hidden;
 `;
 
 const FooterDivider = styled.div`
@@ -64,6 +72,15 @@ const ExternalLinkIcon = styled(Link)`
     }
 `;
 
+const DescriptionWrapper = styled.div`
+    font-family: Arial;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+`;
+
 const ProjectSnippet = ({ title, description, imgSource, link }) => {
   return (
     <>
@@ -71,7 +88,6 @@ const ProjectSnippet = ({ title, description, imgSource, link }) => {
             <ImageWrapper>
                 <Image src={imgSource} />
             </ImageWrapper>
-
             <Footer>
                 <FooterItemWrapper>
                     <h1>{title}</h1>
@@ -83,6 +99,12 @@ const ProjectSnippet = ({ title, description, imgSource, link }) => {
                     <KeyboardArrowDown style={{ width: '70px', height: '40px' }}/>
                 </FooterItemWrapper>
             </Footer>
+
+            <DescriptionWrapper>
+                <br/>
+                <br/>
+                <p>{description}</p>
+            </DescriptionWrapper>
         </Container>
     </>
   )
