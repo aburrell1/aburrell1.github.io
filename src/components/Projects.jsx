@@ -69,11 +69,11 @@ const twoDes = "description";
 const Grid = () => {
     return (
         <GridFrame>
-            <ProjectSnippet 
-                title="Heart Reconstruction w/ Deep Learning" 
+            {/* <ProjectSnippet 
+                title="Heart Reconstruction with Deep Learning" 
                 description={twoDes}
                 imgSource="src/components/images/ceda.png"
-                link="https://rednova25.github.io/fit_senior_project/" />
+                link="https://rednova25.github.io/fit_senior_project/" /> */}
             <ProjectSnippet 
                 title="Othello Deep Learning Agent" 
                 description={othelloProjectDescription} 
