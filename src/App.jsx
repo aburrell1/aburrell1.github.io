@@ -28,9 +28,9 @@ function App() {
         
         <NavBar />
       </StickyNavbar>
-      <Element name="home-section">
+      {/* <Element name="home-section">
         <Slider/>
-      </Element>
+      </Element> */}
       <Element name="about-section">
         <About/>
       </Element>

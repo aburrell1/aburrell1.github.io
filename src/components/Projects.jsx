@@ -64,20 +64,25 @@ const emailProjDescription = `
         communication using ZeroMQ.
 `;
 
-const twoDes = "description";
+const twoDes = `
+    Since August 2024, I have been participating on a team of 3 students to develop a
+    PyTorch ML model that reconstructs 3D images of human hearts from SPECT data.
+    I designed custom loss functions and expanded the model architecture, thus reducing reconstruction error by 60%.
+    I also leveraged Florida Tech's internal cloud service to perform distributed training, GPU acceleration and store data.
+`;
 
 const Grid = () => {
     return (
         <GridFrame>
-            {/* <ProjectSnippet 
-                title="Heart Reconstruction with Deep Learning" 
+            <ProjectSnippet 
+                title="Heart Reconstruction w/ Deep Learning" 
                 description={twoDes}
                 imgSource="src/components/images/ceda.png"
-                link="https://rednova25.github.io/fit_senior_project/" /> */}
+                link="https://rednova25.github.io/fit_senior_project/" /> 
             <ProjectSnippet 
                 title="Othello Deep Learning Agent" 
                 description={othelloProjectDescription} 
-                imgSource="src/components/images/othelloboard.png"
+                imgSource="src/components/images/othello.png"
                 link="https://github.com/michaelnicol/CSE4301-Othello-AI" />    
             <ProjectSnippet 
                 title="Hangman Deep RL Agent" 

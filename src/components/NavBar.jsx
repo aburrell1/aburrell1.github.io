@@ -76,13 +76,13 @@ const NavBar = () => {
   return (
     <Container>
         <Wrapper>
-            <Left>
+            {/* <Left>
                 <MenuItem>
                     <Link to="home-section" smooth={true} duration={500}>
                         Home
                     </Link>
                 </MenuItem>
-            </Left>
+            </Left> */}
             <Center>
                 <MenuItem>
                     <Link to="about-section" smooth={true} duration={500}>
