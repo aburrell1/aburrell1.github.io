@@ -136,7 +136,7 @@ const About = () => {
                 </Left>
                 <Right>
                     <ImageContainer>
-                        <Image src="src\components\images\background_tree.jpg"></Image>
+                        <Image src="/images/background_tree.jpg"></Image>
                     </ImageContainer>
                 </Right>
             </Wrapper>
