@@ -84,25 +84,25 @@ const NavBar = () => {
                 </MenuItem>
             </Left> */}
             <Center>
-                <MenuItem>
-                    <Link to="about-section" smooth={true} duration={500}>
+                <Link to="about-section" smooth={true} duration={500}>
+                    <MenuItem>
                         About
-                    </Link>
-                </MenuItem>
+                    </MenuItem>
+                </Link>
             </Center>
             <Right>
-                <MenuItem>
-                    <Link to="projects-section" smooth={true} duration={500}>
+                <Link to="projects-section" smooth={true} duration={500}>
+                    <MenuItem>
                         Projects
-                    </Link>
-                </MenuItem>
+                    </MenuItem>
+                </Link>
             </Right>
             <End>
-                <MenuItem>
-                    <Link to="contacts-section" smooth={true} duration={500}>
+                <Link to="contacts-section" smooth={true} duration={500}>
+                    <MenuItem>
                         Contact Me
-                    </Link>
-                </MenuItem>
+                    </MenuItem>
+                </Link>
             </End>
         </Wrapper>
     </Container>
