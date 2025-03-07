@@ -77,22 +77,22 @@ const Grid = () => {
             <ProjectSnippet 
                 title="Heart Reconstruction w/ Deep Learning" 
                 description={twoDes}
-                imgSource="images/ceda.png"
+                imgSource="/images/ceda.png"
                 link="https://rednova25.github.io/fit_senior_project/" /> 
             <ProjectSnippet 
                 title="Othello Deep Learning Agent" 
                 description={othelloProjectDescription} 
-                imgSource="images/othello.png"
+                imgSource="/images/othello.png"
                 link="https://github.com/michaelnicol/CSE4301-Othello-AI" />    
             <ProjectSnippet 
                 title="Hangman Deep RL Agent" 
                 description={hangmanDescription} 
-                imgSource="images/hangman_background.png" 
+                imgSource="/images/hangman_background.png" 
                 link="https://github.com/aburrell1/mth4320-hangman-ai" />    
             <ProjectSnippet 
                 title="Phishing Email Evaluation" 
                 description={emailProjDescription}
-                imgSource="images/email-example.webp"
+                imgSource="/images/email-example.webp"
                  />
         </GridFrame>
     );
