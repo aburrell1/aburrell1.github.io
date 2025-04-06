@@ -1,4 +1,4 @@
-import React from 'react'
+
 import styled from 'styled-components'
 import { GitHub, LinkedIn, Mail } from "@mui/icons-material"
 import { Link } from '@mui/material';
@@ -9,7 +9,7 @@ const ContactMe = styled.div`
     color: white;
     display: flex;
     align-text: center;
-    padding: 50px;
+    padding: 70px;
     justify-content: center;
     font-size: 40px;
     font-weight: 500;
@@ -116,7 +116,7 @@ const ContactSection = () => {
                     </Center>
                     <Right>
                         <ContactItem>
-                            <ItemWrapper href="https://github.com/aburrell1" target="_blank" rel="noopener">
+                            <ItemWrapper href="https://github.com/DM-BiC-Lab" target="_blank" rel="noopener">
                                 <ContactItemLabel>
                                     GITHUB: 
                                 </ContactItemLabel>

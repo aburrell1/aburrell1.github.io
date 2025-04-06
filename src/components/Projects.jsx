@@ -17,10 +17,9 @@ const Container = styled.div`
     }
 
     background-image: 
-        linear-gradient(45deg, rgba(0, 225, 255, 0.5) 25%, transparent 25%, transparent 75%, rgba(0, 255, 221, 0.5) 75%),
-        linear-gradient(-45deg, rgba(0, 0, 255, 0.5) 25%, transparent 25%, transparent 75%, rgba(0, 0, 255, 0.5) 75%),
-        linear-gradient(45deg, rgba(0, 0, 0, 0.1) 50%, transparent 50%), 
-        linear-gradient(-45deg, rgba(0, 0, 0, 0.1) 50%, transparent 50%);
+        linear-gradient(45deg, rgba(173, 216, 230, 0.5) 25%, transparent 25%, transparent 75%, rgba(173, 216, 230, 0.5) 75%),
+        linear-gradient(-45deg, rgba(135, 206, 250, 0.5) 25%, transparent 25%, transparent 75%, rgba(135, 206, 250, 0.5) 75%);
+
 `;
 
 const Wrapper = styled.div`
