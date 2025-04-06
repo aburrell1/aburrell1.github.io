@@ -82,7 +82,7 @@ const Grid = () => {
                 title="Othello Deep Learning Agent" 
                 description={othelloProjectDescription} 
                 imgSource="/images/othello.png"
-                link="https://github.com/michaelnicol/CSE4301-Othello-AI" />    
+                link="https://github.com/aburrell1/othello-ml-fullstack" />    
             <ProjectSnippet 
                 title="Hangman Deep RL Agent" 
                 description={hangmanDescription} 
